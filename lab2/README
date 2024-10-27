@@ -1,0 +1,10 @@
+The code is written in C++, and I have provided a makefile. I use a macbook though, so in lines 4 and 7
+of the makefile, it's possible you will have to change clang++ to g++ in order to compile. The following 
+"-std=c++11 -stdlib=libc++" may also need to be removed as I am unsure how it interacts with g++.
+
+To run the code go into the lab2 directory in your console, and type make in the console.
+Then the conventions follow the spec of the assignment, i.e.
+         ./lab2.exe
+
+I was unable to fix the code in time and it experiences a segfault when its the AI's turn, but the logic for winning a game among
+other features are implemented. 

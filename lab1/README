@@ -1,0 +1,11 @@
+The code is written in C++, and I have provided a makefile. I use a macbook though, so in lines 4 and 7
+of the makefile, it's possible you will have to change clang++ to g++ in order to compile. The following 
+"-std=c++11 -stdlib=libc++" may also need to be removed as I am unsure how it interacts with g++.
+
+To run the code go into the lab1 directory in your console, and type make in the console.
+Then the conventions follow the spec of the assignment, i.e.
+         ./lab1.exe --fPath ./S5.txt --alg bfs
+Then the code should run as expected. 
+
+I was unable to fully implement IDS as it goes into an infinite loop. I think I was very close to having it
+implemented but unfortunately could not figure out why it was not working.
